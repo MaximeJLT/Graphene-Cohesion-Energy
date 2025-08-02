@@ -1,4 +1,4 @@
-# Graphene Cohesion Energy Simulation
+/# Graphene Cohesion Energy Simulation
 
 This project numerically evaluates the **cohesion energy** between a single atom (adatome) and a graphene sheet using the **Lennard-Jones potential**. We explore adsorption energies at three different sites — Hole, Top, and Bridge — and generate a potential energy surface to visualize atomic migration paths.
 
@@ -40,7 +40,7 @@ Graphene has a hexagonal lattice with three principal adsorption sites:
 - **Top (T):** Directly above a carbon atom
 - **Bridge (B):** Midpoint of a C–C bond
 
-![Alt text](path/to/image.png)
+![Alt text](figures/sites.png)
 
 ### Geometric Placement
 Using symmetry and lattice constants, the coordinates of the three sites are derived:
@@ -80,11 +80,18 @@ Energy is computed for $$Z \in [2.8, 6.8]\ \text{Å}$$.
 - Minimum energy: **0.042 eV**
 - Equilibrium height: **3.8 Å**
 
+![Alt text](figures/Energie H.png)
+
 ### Top (T) and Bridge (B)
 - Top:
   - Min: **0.040 eV** at **3.4 Å**
+    
+![Alt text](figures/pot T.png)
+
 - Bridge:
   - Min: **0.039 eV** at **3.41 Å**
+    
+![Alt text](figures/Pot B.png)
 
 ---
 
@@ -95,13 +102,20 @@ A colormap is generated at $$Z = 3.38\ \text{Å}$$ (Hole equilibrium) over a 2D 
 - Darker regions indicate stable adsorption
 - Reveals symmetry of hexagonal lattice
 
+![Alt text](figures/surface de potentiel.png)
+
 ---
 
 ## 🧭 Energy Barriers Between Sites
 We evaluate the energy profile for an adatom moving:
 
 - **Hole → Bridge → Hole**
+- 
+![Alt text](figures/Un bridge.png)
+
 - **Hole → Top → Top → Hole**
+  
+![Alt text](figures/deux top.png)
 
 Observation:
 - Both have same peak energy
