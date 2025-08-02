@@ -138,8 +138,4 @@ This project bridges **solid-state physics**, **numerical modeling**, and **visu
 - Numerical integration
 - Scientific plotting
 
-## 📂 File Structure
-- `main_script.m`: Contains all calculations
-- `plots/`: Folder for colormap and potential surface figures
-
 Feel free to explore and adapt for your own simulations. Contributions welcome!
