@@ -80,18 +80,18 @@ Energy is computed for $$Z \in [2.8, 6.8]\ \text{Å}$$.
 - Minimum energy: **0.042 eV**
 - Equilibrium height: **3.8 Å**
 
-![Alt text](figures/Energie H.png)
+![Alt text](figures/EnergieH.png)
 
 ### Top (T) and Bridge (B)
 - Top:
   - Min: **0.040 eV** at **3.4 Å**
     
-![Alt text](figures/pot T.png)
+![Alt text](figures/potT.png)
 
 - Bridge:
   - Min: **0.039 eV** at **3.41 Å**
     
-![Alt text](figures/Pot B.png)
+![Alt text](figures/PotB.png)
 
 ---
 
@@ -102,7 +102,7 @@ A colormap is generated at $$Z = 3.38\ \text{Å}$$ (Hole equilibrium) over a 2D 
 - Darker regions indicate stable adsorption
 - Reveals symmetry of hexagonal lattice
 
-![Alt text](figures/surface de potentiel.png)
+![Alt text](figures/surfacedepotentiel.png)
 
 ---
 
@@ -111,11 +111,11 @@ We evaluate the energy profile for an adatom moving:
 
 - **Hole → Bridge → Hole**
 - 
-![Alt text](figures/Un bridge.png)
+![Alt text](figures/Unbridge.png)
 
 - **Hole → Top → Top → Hole**
   
-![Alt text](figures/deux top.png)
+![Alt text](figures/deuxtop.png)
 
 Observation:
 - Both have same peak energy
