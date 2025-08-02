@@ -1,4 +1,4 @@
-/# Graphene Cohesion Energy Simulation
+## Graphene Cohesion Energy Simulation
 
 This project numerically evaluates the **cohesion energy** between a single atom (adatome) and a graphene sheet using the **Lennard-Jones potential**. We explore adsorption energies at three different sites — Hole, Top, and Bridge — and generate a potential energy surface to visualize atomic migration paths.
 
